@@ -1,5 +1,11 @@
-<h1>Hello world</h1>
+<!-- Apel du fichier de base -->
+{% extends 'base.html' %}
 
-<p>Ceci est ma première page!!!</p>
+{% block content %}
 
-My name is {{ first_name }}
+    <h1>Hello world</h1>
+
+    <p>Ceci est ma première page!!!</p>
+
+    My name is {{ first_name }}
+{% endblock %}
